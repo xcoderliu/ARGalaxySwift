@@ -82,6 +82,11 @@ class ARSolarViewController: UIViewController,ARSCNViewDelegate,ARSessionDelegat
     }
     */
     
+    func session(_ session: ARSession, didUpdate frame: ARFrame) {
+        //近距离可放大 原理就是 坐标系后退相当于人前进 所以-值相乘 但是为了凸显效果所以 *3
+        self.baseNode.position = SCNVector3Make(-3 * frame.camera.transform.columns.3.x, -3 * frame.camera.transform.columns.3.y, -3 * frame.camera.transform.columns.3.z)
+    }
+    
     func renderer(_ renderer: SCNSceneRenderer, didAdd node: SCNNode, for anchor: ARAnchor) {
         
     }
