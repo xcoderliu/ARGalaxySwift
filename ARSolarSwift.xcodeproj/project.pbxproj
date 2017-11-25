@@ -14,6 +14,8 @@
 		F8D318F21FC9B6CB00D36144 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8D318F01FC9B6CB00D36144 /* LaunchScreen.storyboard */; };
 		F8D318FD1FC9B6CB00D36144 /* ARSolarSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D318FC1FC9B6CB00D36144 /* ARSolarSwiftTests.swift */; };
 		F8D319081FC9B6CB00D36144 /* ARSolarSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D319071FC9B6CB00D36144 /* ARSolarSwiftUITests.swift */; };
+		F8D319161FC9BA3800D36144 /* ARSolarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D319151FC9BA3800D36144 /* ARSolarViewController.swift */; };
+		F8D319181FC9BA6900D36144 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = F8D319171FC9BA6900D36144 /* art.scnassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		F8D319031FC9B6CB00D36144 /* ARSolarSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ARSolarSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8D319071FC9B6CB00D36144 /* ARSolarSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARSolarSwiftUITests.swift; sourceTree = "<group>"; };
 		F8D319091FC9B6CB00D36144 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F8D319151FC9BA3800D36144 /* ARSolarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARSolarViewController.swift; sourceTree = "<group>"; };
+		F8D319171FC9BA6900D36144 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,10 +103,11 @@
 			children = (
 				F8D318E71FC9B6CB00D36144 /* AppDelegate.swift */,
 				F8D318E91FC9B6CB00D36144 /* ViewController.swift */,
+				F8D319151FC9BA3800D36144 /* ARSolarViewController.swift */,
 				F8D318EB1FC9B6CB00D36144 /* Main.storyboard */,
-				F8D318EE1FC9B6CB00D36144 /* Assets.xcassets */,
 				F8D318F01FC9B6CB00D36144 /* LaunchScreen.storyboard */,
 				F8D318F31FC9B6CB00D36144 /* Info.plist */,
+				F8D319191FC9BA7400D36144 /* res */,
 			);
 			path = ARSolarSwift;
 			sourceTree = "<group>";
@@ -123,6 +128,15 @@
 				F8D319091FC9B6CB00D36144 /* Info.plist */,
 			);
 			path = ARSolarSwiftUITests;
+			sourceTree = "<group>";
+		};
+		F8D319191FC9BA7400D36144 /* res */ = {
+			isa = PBXGroup;
+			children = (
+				F8D318EE1FC9B6CB00D36144 /* Assets.xcassets */,
+				F8D319171FC9BA6900D36144 /* art.scnassets */,
+			);
+			path = res;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,6 +247,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F8D318F21FC9B6CB00D36144 /* LaunchScreen.storyboard in Resources */,
+				F8D319181FC9BA6900D36144 /* art.scnassets in Resources */,
 				F8D318EF1FC9B6CB00D36144 /* Assets.xcassets in Resources */,
 				F8D318ED1FC9B6CB00D36144 /* Main.storyboard in Resources */,
 			);
@@ -259,6 +274,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F8D319161FC9BA3800D36144 /* ARSolarViewController.swift in Sources */,
 				F8D318EA1FC9B6CB00D36144 /* ViewController.swift in Sources */,
 				F8D318E81FC9B6CB00D36144 /* AppDelegate.swift in Sources */,
 			);
@@ -427,6 +443,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SZ27WN4V96;
 				INFOPLIST_FILE = ARSolarSwift/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.xcoderliu.ARSolarSwift;
@@ -441,6 +458,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SZ27WN4V96;
 				INFOPLIST_FILE = ARSolarSwift/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.xcoderliu.ARSolarSwift;

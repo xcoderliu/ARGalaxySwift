@@ -20,6 +20,10 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-
+    @IBAction func enterNormalAR(_ sender: Any) {
+        let arVC = ARSolarViewController()
+        self.navigationController?.pushViewController(arVC, animated: true)
+    }
+    
 }
 
