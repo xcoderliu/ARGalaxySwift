@@ -15,7 +15,7 @@
 		F8D318F21FC9B6CB00D36144 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8D318F01FC9B6CB00D36144 /* LaunchScreen.storyboard */; };
 		F8D318FD1FC9B6CB00D36144 /* ARSolarSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D318FC1FC9B6CB00D36144 /* ARSolarSwiftTests.swift */; };
 		F8D319081FC9B6CB00D36144 /* ARSolarSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D319071FC9B6CB00D36144 /* ARSolarSwiftUITests.swift */; };
-		F8D319161FC9BA3800D36144 /* ARSolarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D319151FC9BA3800D36144 /* ARSolarViewController.swift */; };
+		F8D319161FC9BA3800D36144 /* ARGalaxyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D319151FC9BA3800D36144 /* ARGalaxyViewController.swift */; };
 		F8D319181FC9BA6900D36144 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = F8D319171FC9BA6900D36144 /* art.scnassets */; };
 /* End PBXBuildFile section */
 
@@ -51,7 +51,7 @@
 		F8D319031FC9B6CB00D36144 /* ARGalaxySwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ARGalaxySwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8D319071FC9B6CB00D36144 /* ARSolarSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARSolarSwiftUITests.swift; sourceTree = "<group>"; };
 		F8D319091FC9B6CB00D36144 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F8D319151FC9BA3800D36144 /* ARSolarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARSolarViewController.swift; sourceTree = "<group>"; };
+		F8D319151FC9BA3800D36144 /* ARGalaxyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARGalaxyViewController.swift; sourceTree = "<group>"; };
 		F8D319171FC9BA6900D36144 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -106,7 +106,7 @@
 			children = (
 				F8D318E71FC9B6CB00D36144 /* AppDelegate.swift */,
 				F8D318E91FC9B6CB00D36144 /* ViewController.swift */,
-				F8D319151FC9BA3800D36144 /* ARSolarViewController.swift */,
+				F8D319151FC9BA3800D36144 /* ARGalaxyViewController.swift */,
 				F8D318EB1FC9B6CB00D36144 /* Main.storyboard */,
 				F8D318F01FC9B6CB00D36144 /* LaunchScreen.storyboard */,
 				F8D318F31FC9B6CB00D36144 /* Info.plist */,
@@ -278,7 +278,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F8D319161FC9BA3800D36144 /* ARSolarViewController.swift in Sources */,
+				F8D319161FC9BA3800D36144 /* ARGalaxyViewController.swift in Sources */,
 				F8D318EA1FC9B6CB00D36144 /* ViewController.swift in Sources */,
 				F8D318E81FC9B6CB00D36144 /* AppDelegate.swift in Sources */,
 			);
