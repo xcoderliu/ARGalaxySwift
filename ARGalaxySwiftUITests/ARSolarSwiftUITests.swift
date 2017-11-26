@@ -1,6 +1,6 @@
 //
-//  ARSolarSwiftUITests.swift
-//  ARSolarSwiftUITests
+//  ARGalaxySwiftUITests.swift
+//  ARGalaxySwiftUITests
 //
 //  Created by 刘智民 on 25/11/2017.
 //  Copyright © 2017 刘智民. All rights reserved.
@@ -8,7 +8,7 @@
 
 import XCTest
 
-class ARSolarSwiftUITests: XCTestCase {
+class ARGalaxySwiftUITests: XCTestCase {
         
     override func setUp() {
         super.setUp()

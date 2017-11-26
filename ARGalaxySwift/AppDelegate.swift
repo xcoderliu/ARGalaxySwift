@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  ARSolarSwift
+//  ARGalaxySwift
 //
 //  Created by 刘智民 on 25/11/2017.
 //  Copyright © 2017 刘智民. All rights reserved.

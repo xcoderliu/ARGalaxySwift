@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F86E53271FCA9AC400C8BDC6 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F86E53261FCA9AC400C8BDC6 /* Default-568h@2x.png */; };
 		F8D318E81FC9B6CB00D36144 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D318E71FC9B6CB00D36144 /* AppDelegate.swift */; };
 		F8D318EA1FC9B6CB00D36144 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D318E91FC9B6CB00D36144 /* ViewController.swift */; };
 		F8D318ED1FC9B6CB00D36144 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8D318EB1FC9B6CB00D36144 /* Main.storyboard */; };
@@ -36,17 +37,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		F8D318E41FC9B6CB00D36144 /* ARSolarSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARSolarSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F86E53261FCA9AC400C8BDC6 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		F8D318E41FC9B6CB00D36144 /* ARGalaxySwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARGalaxySwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8D318E71FC9B6CB00D36144 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F8D318E91FC9B6CB00D36144 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F8D318EC1FC9B6CB00D36144 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F8D318EE1FC9B6CB00D36144 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F8D318F11FC9B6CB00D36144 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F8D318F31FC9B6CB00D36144 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F8D318F81FC9B6CB00D36144 /* ARSolarSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ARSolarSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8D318F81FC9B6CB00D36144 /* ARGalaxySwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ARGalaxySwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8D318FC1FC9B6CB00D36144 /* ARSolarSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARSolarSwiftTests.swift; sourceTree = "<group>"; };
 		F8D318FE1FC9B6CB00D36144 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F8D319031FC9B6CB00D36144 /* ARSolarSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ARSolarSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8D319031FC9B6CB00D36144 /* ARGalaxySwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ARGalaxySwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8D319071FC9B6CB00D36144 /* ARSolarSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARSolarSwiftUITests.swift; sourceTree = "<group>"; };
 		F8D319091FC9B6CB00D36144 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F8D319151FC9BA3800D36144 /* ARSolarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARSolarViewController.swift; sourceTree = "<group>"; };
@@ -81,9 +83,10 @@
 		F8D318DB1FC9B6CB00D36144 = {
 			isa = PBXGroup;
 			children = (
-				F8D318E61FC9B6CB00D36144 /* ARSolarSwift */,
-				F8D318FB1FC9B6CB00D36144 /* ARSolarSwiftTests */,
-				F8D319061FC9B6CB00D36144 /* ARSolarSwiftUITests */,
+				F86E53261FCA9AC400C8BDC6 /* Default-568h@2x.png */,
+				F8D318E61FC9B6CB00D36144 /* ARGalaxySwift */,
+				F8D318FB1FC9B6CB00D36144 /* ARGalaxySwiftTests */,
+				F8D319061FC9B6CB00D36144 /* ARGalaxySwiftUITests */,
 				F8D318E51FC9B6CB00D36144 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -91,14 +94,14 @@
 		F8D318E51FC9B6CB00D36144 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F8D318E41FC9B6CB00D36144 /* ARSolarSwift.app */,
-				F8D318F81FC9B6CB00D36144 /* ARSolarSwiftTests.xctest */,
-				F8D319031FC9B6CB00D36144 /* ARSolarSwiftUITests.xctest */,
+				F8D318E41FC9B6CB00D36144 /* ARGalaxySwift.app */,
+				F8D318F81FC9B6CB00D36144 /* ARGalaxySwiftTests.xctest */,
+				F8D319031FC9B6CB00D36144 /* ARGalaxySwiftUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		F8D318E61FC9B6CB00D36144 /* ARSolarSwift */ = {
+		F8D318E61FC9B6CB00D36144 /* ARGalaxySwift */ = {
 			isa = PBXGroup;
 			children = (
 				F8D318E71FC9B6CB00D36144 /* AppDelegate.swift */,
@@ -109,25 +112,25 @@
 				F8D318F31FC9B6CB00D36144 /* Info.plist */,
 				F8D319191FC9BA7400D36144 /* res */,
 			);
-			path = ARSolarSwift;
+			path = ARGalaxySwift;
 			sourceTree = "<group>";
 		};
-		F8D318FB1FC9B6CB00D36144 /* ARSolarSwiftTests */ = {
+		F8D318FB1FC9B6CB00D36144 /* ARGalaxySwiftTests */ = {
 			isa = PBXGroup;
 			children = (
 				F8D318FC1FC9B6CB00D36144 /* ARSolarSwiftTests.swift */,
 				F8D318FE1FC9B6CB00D36144 /* Info.plist */,
 			);
-			path = ARSolarSwiftTests;
+			path = ARGalaxySwiftTests;
 			sourceTree = "<group>";
 		};
-		F8D319061FC9B6CB00D36144 /* ARSolarSwiftUITests */ = {
+		F8D319061FC9B6CB00D36144 /* ARGalaxySwiftUITests */ = {
 			isa = PBXGroup;
 			children = (
 				F8D319071FC9B6CB00D36144 /* ARSolarSwiftUITests.swift */,
 				F8D319091FC9B6CB00D36144 /* Info.plist */,
 			);
-			path = ARSolarSwiftUITests;
+			path = ARGalaxySwiftUITests;
 			sourceTree = "<group>";
 		};
 		F8D319191FC9BA7400D36144 /* res */ = {
@@ -142,9 +145,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F8D318E31FC9B6CB00D36144 /* ARSolarSwift */ = {
+		F8D318E31FC9B6CB00D36144 /* ARGalaxySwift */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F8D3190C1FC9B6CB00D36144 /* Build configuration list for PBXNativeTarget "ARSolarSwift" */;
+			buildConfigurationList = F8D3190C1FC9B6CB00D36144 /* Build configuration list for PBXNativeTarget "ARGalaxySwift" */;
 			buildPhases = (
 				F8D318E01FC9B6CB00D36144 /* Sources */,
 				F8D318E11FC9B6CB00D36144 /* Frameworks */,
@@ -154,14 +157,14 @@
 			);
 			dependencies = (
 			);
-			name = ARSolarSwift;
+			name = ARGalaxySwift;
 			productName = ARSolarSwift;
-			productReference = F8D318E41FC9B6CB00D36144 /* ARSolarSwift.app */;
+			productReference = F8D318E41FC9B6CB00D36144 /* ARGalaxySwift.app */;
 			productType = "com.apple.product-type.application";
 		};
-		F8D318F71FC9B6CB00D36144 /* ARSolarSwiftTests */ = {
+		F8D318F71FC9B6CB00D36144 /* ARGalaxySwiftTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F8D3190F1FC9B6CB00D36144 /* Build configuration list for PBXNativeTarget "ARSolarSwiftTests" */;
+			buildConfigurationList = F8D3190F1FC9B6CB00D36144 /* Build configuration list for PBXNativeTarget "ARGalaxySwiftTests" */;
 			buildPhases = (
 				F8D318F41FC9B6CB00D36144 /* Sources */,
 				F8D318F51FC9B6CB00D36144 /* Frameworks */,
@@ -172,14 +175,14 @@
 			dependencies = (
 				F8D318FA1FC9B6CB00D36144 /* PBXTargetDependency */,
 			);
-			name = ARSolarSwiftTests;
+			name = ARGalaxySwiftTests;
 			productName = ARSolarSwiftTests;
-			productReference = F8D318F81FC9B6CB00D36144 /* ARSolarSwiftTests.xctest */;
+			productReference = F8D318F81FC9B6CB00D36144 /* ARGalaxySwiftTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		F8D319021FC9B6CB00D36144 /* ARSolarSwiftUITests */ = {
+		F8D319021FC9B6CB00D36144 /* ARGalaxySwiftUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F8D319121FC9B6CB00D36144 /* Build configuration list for PBXNativeTarget "ARSolarSwiftUITests" */;
+			buildConfigurationList = F8D319121FC9B6CB00D36144 /* Build configuration list for PBXNativeTarget "ARGalaxySwiftUITests" */;
 			buildPhases = (
 				F8D318FF1FC9B6CB00D36144 /* Sources */,
 				F8D319001FC9B6CB00D36144 /* Frameworks */,
@@ -190,9 +193,9 @@
 			dependencies = (
 				F8D319051FC9B6CB00D36144 /* PBXTargetDependency */,
 			);
-			name = ARSolarSwiftUITests;
+			name = ARGalaxySwiftUITests;
 			productName = ARSolarSwiftUITests;
-			productReference = F8D319031FC9B6CB00D36144 /* ARSolarSwiftUITests.xctest */;
+			productReference = F8D319031FC9B6CB00D36144 /* ARGalaxySwiftUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -221,7 +224,7 @@
 					};
 				};
 			};
-			buildConfigurationList = F8D318DF1FC9B6CB00D36144 /* Build configuration list for PBXProject "ARSolarSwift" */;
+			buildConfigurationList = F8D318DF1FC9B6CB00D36144 /* Build configuration list for PBXProject "ARGalaxySwift" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -234,9 +237,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F8D318E31FC9B6CB00D36144 /* ARSolarSwift */,
-				F8D318F71FC9B6CB00D36144 /* ARSolarSwiftTests */,
-				F8D319021FC9B6CB00D36144 /* ARSolarSwiftUITests */,
+				F8D318E31FC9B6CB00D36144 /* ARGalaxySwift */,
+				F8D318F71FC9B6CB00D36144 /* ARGalaxySwiftTests */,
+				F8D319021FC9B6CB00D36144 /* ARGalaxySwiftUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -249,6 +252,7 @@
 				F8D318F21FC9B6CB00D36144 /* LaunchScreen.storyboard in Resources */,
 				F8D319181FC9BA6900D36144 /* art.scnassets in Resources */,
 				F8D318EF1FC9B6CB00D36144 /* Assets.xcassets in Resources */,
+				F86E53271FCA9AC400C8BDC6 /* Default-568h@2x.png in Resources */,
 				F8D318ED1FC9B6CB00D36144 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -301,12 +305,12 @@
 /* Begin PBXTargetDependency section */
 		F8D318FA1FC9B6CB00D36144 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = F8D318E31FC9B6CB00D36144 /* ARSolarSwift */;
+			target = F8D318E31FC9B6CB00D36144 /* ARGalaxySwift */;
 			targetProxy = F8D318F91FC9B6CB00D36144 /* PBXContainerItemProxy */;
 		};
 		F8D319051FC9B6CB00D36144 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = F8D318E31FC9B6CB00D36144 /* ARSolarSwift */;
+			target = F8D318E31FC9B6CB00D36144 /* ARGalaxySwift */;
 			targetProxy = F8D319041FC9B6CB00D36144 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -444,7 +448,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = SZ27WN4V96;
-				INFOPLIST_FILE = ARSolarSwift/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/ARGalaxySwift/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.xcoderliu.ARSolarSwift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -459,7 +463,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = SZ27WN4V96;
-				INFOPLIST_FILE = ARSolarSwift/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/ARGalaxySwift/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.xcoderliu.ARSolarSwift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -480,7 +484,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ARSolarSwift.app/ARSolarSwift";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ARGalaxySwift.app/ARGalaxySwift";
 			};
 			name = Debug;
 		};
@@ -496,7 +500,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ARSolarSwift.app/ARSolarSwift";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ARGalaxySwift.app/ARGalaxySwift";
 			};
 			name = Release;
 		};
@@ -533,7 +537,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F8D318DF1FC9B6CB00D36144 /* Build configuration list for PBXProject "ARSolarSwift" */ = {
+		F8D318DF1FC9B6CB00D36144 /* Build configuration list for PBXProject "ARGalaxySwift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F8D3190A1FC9B6CB00D36144 /* Debug */,
@@ -542,7 +546,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F8D3190C1FC9B6CB00D36144 /* Build configuration list for PBXNativeTarget "ARSolarSwift" */ = {
+		F8D3190C1FC9B6CB00D36144 /* Build configuration list for PBXNativeTarget "ARGalaxySwift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F8D3190D1FC9B6CB00D36144 /* Debug */,
@@ -551,7 +555,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F8D3190F1FC9B6CB00D36144 /* Build configuration list for PBXNativeTarget "ARSolarSwiftTests" */ = {
+		F8D3190F1FC9B6CB00D36144 /* Build configuration list for PBXNativeTarget "ARGalaxySwiftTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F8D319101FC9B6CB00D36144 /* Debug */,
@@ -560,7 +564,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F8D319121FC9B6CB00D36144 /* Build configuration list for PBXNativeTarget "ARSolarSwiftUITests" */ = {
+		F8D319121FC9B6CB00D36144 /* Build configuration list for PBXNativeTarget "ARGalaxySwiftUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F8D319131FC9B6CB00D36144 /* Debug */,

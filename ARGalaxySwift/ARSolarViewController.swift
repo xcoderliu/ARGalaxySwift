@@ -1,6 +1,6 @@
 //
-//  ARSolarViewController.swift
-//  ARSolarSwift
+//  ARGalaxyViewController.swift
+//  ARGalaxySwift
 //
 //  Created by 刘智民 on 25/11/2017.
 //  Copyright © 2017 刘智民. All rights reserved.
@@ -10,7 +10,7 @@ import UIKit
 import ARKit
 import SceneKit
 
-class ARSolarViewController: UIViewController,ARSCNViewDelegate,ARSessionDelegate {
+class ARGalaxyViewController: UIViewController,ARSCNViewDelegate,ARSessionDelegate {
     let arSCNView = ARSCNView()
     let arSession = ARSession()
     let sessionconfig = ARWorldTrackingConfiguration()
