@@ -108,16 +108,6 @@ class ARSolarViewController: UIViewController,ARSCNViewDelegate,ARSessionDelegat
         saturnRing.addChildNode(saturn)
         baseNode.addChildNode(saturnRing)
         
-//        //添加土星环
-//        SCNNode *saturnLoopNode = [SCNNode new];
-//        saturnLoopNode.opacity = 0.4;
-//        saturnLoopNode.geometry = [SCNBox boxWithWidth:0.6 height:0 length:0.6 chamferRadius:0];
-//        saturnLoopNode.geometry.firstMaterial.diffuse.contents = @"art.scnassets/earth/saturn_loop.png";
-//        saturnLoopNode.geometry.firstMaterial.diffuse.mipFilter = SCNFilterModeLinear;
-//        saturnLoopNode.rotation = SCNVector4Make(-0.5, -1, 0, M_PI_2);
-//        saturnLoopNode.geometry.firstMaterial.lightingModelName = SCNLightingModelConstant; // no lighting
-//        [_sartunGruopNode addChildNode:saturnLoopNode];
-
         //土星环
         let saturnloop = SCNNode()
         saturnloop.position = SCNVector3Make(0, 0, 0)
@@ -141,7 +131,20 @@ class ARSolarViewController: UIViewController,ARSCNViewDelegate,ARSessionDelegat
         let neptuneRing = createRing(ringSize: 1.7)
         neptuneRing.addChildNode(neptune)
         baseNode.addChildNode(neptuneRing)
-
+        
+        //添加文字
+        let text = SCNText(string: "欢迎来到银河系!hello world!!", extrusionDepth: 0.01)
+        text.font = UIFont.systemFont(ofSize: 0.1)
+        let textNode = SCNNode(geometry: text)
+        textNode.position = SCNVector3(-0.6, -0.6, baseZ)
+        baseNode.addChildNode(textNode)
+        
+        
+        let author = SCNText(string: "Author:xcoderliu@gmail.com", extrusionDepth: 0.01)
+        author.font = UIFont.systemFont(ofSize: 0.1)
+        let authorNode = SCNNode(geometry: author)
+        authorNode.position = SCNVector3(-0.6, -0.8, baseZ)
+        baseNode.addChildNode(authorNode)
 
         
         
