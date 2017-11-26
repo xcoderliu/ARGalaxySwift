@@ -37,7 +37,7 @@ class ARGalaxyViewController: UIViewController,ARSCNViewDelegate,ARSessionDelega
         let scene = SCNScene()
         self.arSCNView.scene = scene
         scene.rootNode.addChildNode(baseNode)
-        self.initSolar()
+        self.initGalaxy()
         self.initAirplane()
     }
     
@@ -49,7 +49,7 @@ class ARGalaxyViewController: UIViewController,ARSCNViewDelegate,ARSessionDelega
         self.arSCNView.session.pause()
     }
     
-    func initSolar() {
+    func initGalaxy() {
         let sun = createPlanet(radius: 0.25, image: "sun")
         sun.position = SCNVector3Make(0, baseY, baseZ)
         rotateObject(rotation: -0.4, node: sun, duration: 1)
